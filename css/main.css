@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin:  0;
 }
 
 .topbar {
@@ -146,8 +146,12 @@ h2 a:hover, h2 a:focus {
   margin: 1rem;
 }
 
+.navfoot {
+    border-top: .1rem solid #fff;
+}
+
 .navfoot ul {
-  margin: 3rem 0;
+  margin: 1rem 0;
   padding: 0;
   list-style-type: none;
   align-items: center;
