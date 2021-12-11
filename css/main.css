@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin:  0;
+  margin: 0;
 }
 
 .topbar {
@@ -57,8 +57,8 @@ body {
   border-radius: 3px;
   color: #fff;
   text-decoration: none;
-  background-color:  black;
-  transition: 0.5s border ease;
+  background-color: black;
+  transition: .5s border ease;
 }
 
 .homepage .nav a {
@@ -68,8 +68,8 @@ body {
   border-radius: 1px;
   color: #000;
   text-decoration: none;
-  background-color:  white;
-  transition: 0.5s border ease;
+  background-color: white;
+  transition: .5s border ease;
 }
 
 .nav img {
@@ -287,6 +287,7 @@ ol ul a {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
   }
+
 }
 
 @media only screen and (min-width: 75em) {
@@ -295,4 +296,5 @@ ol ul a {
     max-width: 1200px;
     margin: auto;
   }
+
 }
