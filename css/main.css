@@ -302,3 +302,9 @@ display: flex;
   display: none;
 
 }
+
+.our-coffee {
+  display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 2rem;
+}
