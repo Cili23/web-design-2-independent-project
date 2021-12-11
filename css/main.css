@@ -141,7 +141,7 @@ h2 a:hover, h2 a:focus {
   font-size: 3rem;
   display: flex;
   flex-direction: row;
-  justify-content: ;
+  justify-content: space-evenly;
 }
 
 .container {
@@ -297,8 +297,6 @@ display: flex;
 
 .nav img {
   display: none;
-}
-
 }
 
 .our-coffee {
