@@ -100,8 +100,8 @@ h2 a:hover, h2 a:focus {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "banner"
-  "body";
+    "banner"
+    "body";
   gap: .75rem;
 }
 
@@ -177,8 +177,6 @@ h2 a:hover, h2 a:focus {
 .legal {
   font-size: .5rem;
 }
-
-/*Shop*/
 
 ol li p {
   text-align: center;
@@ -290,7 +288,6 @@ ol ul a {
     grid-gap: 2rem;
   }
 }
-
 
 @media only screen and (min-width: 75em) {
 
