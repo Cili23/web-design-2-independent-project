@@ -73,7 +73,7 @@ body {
 }
 
 .nav img {
-  display: none;
+  display: inline;
 }
 
 .nav a:focus {
@@ -259,12 +259,6 @@ ol ul a {
 
 .nav li {
   display: none;
-
-}
-
-.nav img {
-  display: inline;
-
 }
 
 .skip-links {
