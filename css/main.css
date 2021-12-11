@@ -192,7 +192,7 @@ ol {
   margin: 0;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -242,11 +242,6 @@ ol ul a {
   display: flex;
   justify-content: start;
   align-items: center;
-}
-
-ol {
-  display: grid;
-  grid-template-columns: 1fr;
 }
 
 .our-coffee figure {
