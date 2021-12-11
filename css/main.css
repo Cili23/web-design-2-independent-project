@@ -51,9 +51,7 @@ body {
 }
 
 .nav a {
-  padding: .5em;
   border: 3px solid black;
-  border-radius: 13px;
   padding: .25rem;
   margin: 1rem;
   border-radius: 3px;
@@ -64,9 +62,7 @@ body {
 }
 
 .homepage .nav a {
-  padding: 0;
   border: 3px solid white;
-  border-radius: 13px;
   padding: .25rem;
   margin: 1rem;
   border-radius: 1px;
