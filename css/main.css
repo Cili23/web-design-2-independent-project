@@ -101,12 +101,12 @@ h2 a:hover, h2 a:focus {
 }
 
 .main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "banner"
-      "body";
-    gap: .75rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "banner"
+  "body";
+  gap: .75rem;
 }
 
 .banner a:focus {
@@ -155,7 +155,7 @@ h2 a:hover, h2 a:focus {
 }
 
 .navfoot {
-    border-top: .1rem solid #fff;
+  border-top: .1rem solid #fff;
 }
 
 .navfoot ul {
@@ -179,7 +179,7 @@ h2 a:hover, h2 a:focus {
 }
 
 .legal {
-font-size: .5rem;
+  font-size: .5rem;
 }
 
 /*Shop*/
@@ -255,19 +255,19 @@ ol {
 
 .our-coffee figure {
   margin: 0 0 1rem;
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-position: 50%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .nav li {
-display: none;
+  display: none;
 
 }
 
@@ -286,20 +286,20 @@ display: none;
 
 @media only screen and (min-width: 30em) {
 
-ol {
+  ol {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
-.nav li {
-display: flex;
-}
+  .nav li {
+    display: flex;
+  }
 
-.nav img {
-  display: none;
-}
+  .nav img {
+    display: none;
+  }
 
-.our-coffee {
+  .our-coffee {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
@@ -309,7 +309,7 @@ display: flex;
 
 @media only screen and (min-width: 75em) {
 
-.container {
+  .container {
     max-width: 1200px;
     margin: auto;
   }
