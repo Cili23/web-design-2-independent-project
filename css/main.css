@@ -274,6 +274,14 @@ display: none;
 
 }
 
+.skip-links {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  left: -999px;
+  top: -999px;
+}
+
 @media only screen and (min-width: 30em) {
 
 ol {
