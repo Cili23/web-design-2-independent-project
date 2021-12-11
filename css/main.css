@@ -144,6 +144,10 @@ h2 a:hover, h2 a:focus {
   justify-content: ;
 }
 
+.container {
+  padding: 0 1rem;
+}
+
 .intro {
   grid-area: body;
   padding: 0;
@@ -249,12 +253,6 @@ ol {
   grid-template-columns: 1fr;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 1rem;
-}
-
 .our-coffee figure {
   margin: 0 0 1rem;
     background-image: url(../images/bg.jpg);
@@ -295,11 +293,11 @@ ol {
 
 .nav li {
 display: flex;
-
 }
 
 .nav img {
   display: none;
+}
 
 }
 
@@ -307,4 +305,13 @@ display: flex;
   display: grid;
 grid-template-columns: 1fr 1fr;
 grid-gap: 2rem;
+}
+
+@media only screen and (min-width: 75em) {
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
 }
