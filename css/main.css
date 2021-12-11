@@ -244,7 +244,7 @@ ol ul a {
 
 .our-coffee figure {
   margin: 0 0 1rem;
-  background-image: url(../images/bg.jpg);
+  background-image: url("../images/bg.jpg");
   background-size: cover;
   background-position: 50%;
   padding: 2rem;
