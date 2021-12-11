@@ -121,6 +121,7 @@ h2 a:hover, h2 a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #fff;
   font-size: 1.5rem;
 }
 
